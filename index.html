@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phú Bài Store</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/css/all.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="line"></div>
+            <div class="navi">
+                <button class="btnbars js-btn">
+                    <i class="bars fa-solid fa-bars"></i>
+                </button>
+                <p><a href="#"><strong>PhuBai</strong>Store</a></p>
+            </div>
+            <div id="nav">
+                    <div class="active booking">
+                        <i class="fa fa-solid fa-book"></i>
+                        <a href="">Đặt chỗ</a>
+                    </div>
+                    <div class="active login">
+                        <i class="fa fa-solid fa-user"></i>
+                        <a href="">Đăng nhập</a>
+                    </div>
+                    <div>
+                    <button class="btn register">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="banner-container">
+                <img src="./assets/img/plane1.jpg" alt="banner1">
+                <img src="./assets/img/plane2.jpg" alt="banner2">
+                <img src="./assets/img/plane3.jpg" alt="banner3">
+            </div>
+            <div class="voucher">
+                <a href=""><</a>
+                <a href="">Xem thêm khuyến mãi</a>
+                <a href="">></a>
+            </div>
+        </div>
+        <div id="content">
+            <div class="searchticket-box">
+                    <div class="inputplace">
+                        <div class="input">
+                            <p>Từ</p>
+                            <input class="style-input" classtype="text" placeholder="Nhập nơi đi...">
+                        </div>
+                        <div class="input">
+                            <p>Đến</p>
+                            <input class="style-input" type="text" placeholder="Nhập nơi đến...">
+                        </div>
+                        <div class="input">
+                            <p>Hạng Ghế</p>
+                            <input class="style-input" list="types" placeholder="Chọn hoặc nhập loại ghế...">
+                            <datalist id="types">
+                                <option value="Phổ thông"></option>
+                                <option value="Thương gia"></option>
+                                <option value="Hạng Nhất"></option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="inputdate">
+                        <div class="choosedate">
+                            <div class="input">
+                                <p>Ngày đi</p>
+                                <input class="style-input" type="date">
+                            </div>
+                            <div class="input input-round-trip">
+                                <div><input class="round-trip" type="checkbox">Khứ hồi</div>
+                                <div><input class="style-input none" type="date"></div>
+                            </div>
+                            <div >
+                                <button class="btn-search js-btn-search">
+                                    <i class="fa-solid fa-search"></i>
+                                    Tìm kiếm chuyến bay</button>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>  
+            </div>
+            <div class="img">
+                <a href=""><img src="./assets/img/plane4.png" alt="plane 4"></a>
+            </div>
+        </div>
+        <div class="partner">
+            <div class="partner-box">
+                <div>
+                    <h2>Đối tác thanh toán</h2>
+                    <p>Những đối tác thanh toán đáng tin cậy của chúng tôi sẽ giúp cho bạn luôn an tâm thực hiện mọi giao dịch một cách thuận lợi nhất!</p> 
+                </div>
+                <div class="img">
+                    <img src="./assets/img/partner1.png" alt="partner1">
+                </div>
+            </div>
+            <div class="partner-box">
+                <div>
+                    <h2>Đối tác hàng không</h2>
+                    <p>Những đối tác hàng không toàn cầu sẽ chắp cánh đưa bạn đến mọi địa điểm trên thế giới.</p> 
+                </div>
+                <div class="img">
+                    <img src="./assets/img/partner2.png" alt="partner1">
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="icon">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <p>Copyright © 2022 Thực tập tại 3S</p>
+        </div>
+
+        <div class="helpbox">
+            <i class="question fa-solid fa-circle-question"></i>
+            <button class="help"><strong>Bạn cần hỗ trợ?</strong></button>
+        </div>
+    </div>
+    <div class="modal js-modal"> 
+        <ul class="modal-container js-modal-container">
+            <li>
+                <a href="">
+                    <div><i class="fa-solid fa-house"></i></div>
+                    <div class="tittle" class="tittle">Trang chủ</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div><i class="fa-solid fa-book"></i></div>
+                    <div class="tittle">Đặt chỗ</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div><i class="fa-solid fa-search"></i></div>
+                    <div class="tittle">Tìm kiếm chuyến bay</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div><i class="fa-solid fa-phone-flip"></i></div>
+                    <div class="tittle">Liên hệ</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div><i class="fa-solid fa-circle-question"></i></div>
+                    <div class="tittle">Hỗ trợ</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div><i class="percent fa-solid fa-percent"></i></div>
+                    <div class="tittle">Khuyến mãi</div>
+                </a>
+            </li>
+        </ul>
+        <div class="modal-close js-modal-close">
+            <i class="close fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <div class="modal-search js-modal-search">
+        <div class="modal-search-container js-modal-search-container">
+            <div class="modal-search-close js-modal-search-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <header class="modal-header">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Tìm kiếm chuyến bay
+            </header>
+        </div>
+
+    </div>
+    <script>
+        const barBtns = document.querySelectorAll('.js-btn')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const btnSearch = document.querySelector('.js-btn-search')
+        const modalSearch = document.querySelector('.js-modal-search')
+        const modalSearchClose = document.querySelector('.js-modal-search-close')
+        const modalSearchContainer = document.querySelector('.js-modal-search-container')
+        function showBars() {
+            modal.classList.add('open')
+        }
+        function hideBars() {
+            modal.classList.remove('open')
+        }
+        function showBarSearch() {
+            modalSearch.classList.add('open')
+        }
+        function hideBarSearch() {
+            modalSearch.classList.remove('open')
+        }
+        for(const barBtn of barBtns){
+            barBtn.addEventListener('click', showBars)
+        }
+        modalClose.addEventListener('click', hideBars)
+        modal.addEventListener('click', hideBars)
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+        btnSearch.addEventListener('click',showBarSearch)
+        modalSearchClose.addEventListener('click',hideBarSearch)
+        modalSeach.addEventListener('click',hideBarSearch)
+        modalSearchContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+</body>
+</html>
